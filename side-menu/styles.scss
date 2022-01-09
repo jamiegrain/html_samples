@@ -1,9 +1,10 @@
 body {
-    min-height: 100vh;
+    height: 100%;
 }
 
 h1 {
     font-size: 4em;
+
 }
 
 #side-menu {
@@ -14,10 +15,20 @@ h1 {
     min-width: 20vw;
     background-color: thistle;
     display: none;
+    padding-left: 1em;
+
+    &:hover, &:focus-within {
+        display: block;
+    }
+
 }
 
 #show-button {
-    float: right;
+    background-color: #008087;
+    border: none;
+    padding: 1em;
+    color: white;
+    border-radius: 5px;
 }
 
 #show-button:focus { 

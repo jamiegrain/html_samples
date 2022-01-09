@@ -1,5 +1,5 @@
 body {
-  min-height: 100vh;
+  height: 100%;
 }
 
 h1 {
@@ -14,10 +14,18 @@ h1 {
   min-width: 20vw;
   background-color: thistle;
   display: none;
+  padding-left: 1em;
+}
+#side-menu:hover, #side-menu:focus-within {
+  display: block;
 }
 
 #show-button {
-  float: right;
+  background-color: #008087;
+  border: none;
+  padding: 1em;
+  color: white;
+  border-radius: 5px;
 }
 
 #show-button:focus + #side-menu {
