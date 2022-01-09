@@ -4,11 +4,10 @@ body {
 
 h1 {
     font-size: 4em;
-
 }
 
 #side-menu {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     height: 100%;
@@ -20,7 +19,6 @@ h1 {
     &:hover, &:focus-within {
         display: block;
     }
-
 }
 
 #show-button {
