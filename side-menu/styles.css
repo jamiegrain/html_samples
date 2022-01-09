@@ -1,0 +1,27 @@
+body {
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+#side-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  min-width: 20vw;
+  background-color: thistle;
+  display: none;
+}
+
+#show-button {
+  float: right;
+}
+
+#show-button:focus + #side-menu {
+  display: block;
+}
+
+/*# sourceMappingURL=styles.css.map */
